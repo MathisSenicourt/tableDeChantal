@@ -1,0 +1,40 @@
+.titleHome{
+    background-color: white;
+    color: black;
+    margin-top: -5em;
+    position: fixed;
+    border: 2px solid black;
+    width: 30%;
+    text-align: center;
+    padding:3em 0 3em 0;
+    border-radius: 5% 50%;
+    z-index:10;
+    font-size: 34px;
+    font-style: italic;
+    margin-left: 35%;
+}
+
+.presHome{
+    background-color: white;
+    color: black;
+    margin-top: 7em;
+    position: fixed;
+    border: 2px solid black;
+    width: 50%;
+    text-align: center;
+    padding:2em 0 2em 0;
+    border-radius: 30% 30%;
+    z-index:10;
+    font-size: 26px;
+    margin-left: 25%;
+}
+
+
+.titleHome:hover,.presHome:hover{
+    border: 3px solid yellowgreen;
+}
+
+.presentation{
+    margin-top: -50em;
+    display: flex;
+}

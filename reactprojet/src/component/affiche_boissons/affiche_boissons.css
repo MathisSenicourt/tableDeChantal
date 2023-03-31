@@ -1,0 +1,52 @@
+.img_boissons {
+    height: 10em;
+    width: 10em;
+}
+.affiche_boissons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.boissons {
+    margin-left: 2em;
+    margin-right: 2em;
+    align-items: center;
+    text-align: center;
+    width: 15%;
+    background-color: azure;
+    border: 0.2em solid black;
+    border-radius: 5%;
+}
+
+.details_price{
+    margin-top: -2em;
+    font-size: 26px;
+    color: white;
+    -webkit-text-stroke: 0.5px black; /* bordure avec la propriété text-stroke pour les navigateurs WebKit (Safari, Chrome) */
+    text-stroke: 0.5px black; /* bordure avec la propriété text-stroke pour les navigateurs compatibles */
+    text-shadow: 0.5px 0.5px 0 black,
+    -0.5px -0.5px 0 black,
+    0.5px -0.5px 0 black,
+    -0.5px 0.5px 0 black; /* bordure de repli avec la propriété text-shadow */
+    padding: 10px; /* facultatif : ajoute un espace intérieur au titre */
+}
+
+.boissons:hover {
+    border-color: yellowgreen;
+    border-radius: 20%;
+  }
+
+.categore_title{
+    text-align: center;
+    justify-content: center;
+    font-size: 38px;
+    color: white;
+    -webkit-text-stroke: 0.5px black; /* bordure avec la propriété text-stroke pour les navigateurs WebKit (Safari, Chrome) */
+    text-stroke: 0.5px black; /* bordure avec la propriété text-stroke pour les navigateurs compatibles */
+    text-shadow: 0.5px 0.5px 0 black,
+    -0.5px -0.5px 0 black,
+    0.5px -0.5px 0 black,
+    -0.5px 0.5px 0 black; /* bordure de repli avec la propriété text-shadow */
+    padding: 10px; /* facultatif : ajoute un espace intérieur au titre */
+}
+
